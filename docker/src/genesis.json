@@ -1,0 +1,20 @@
+{
+  "config": {
+    "chainId"         : ${GEN_CHAIN_ID},
+    "homesteadBlock"  : 0,
+    "eip155Block"     : 0,
+    "eip158Block"     : 0
+  },
+    "alloc"           : {
+    ${GEN_ALLOC}
+  },
+  "coinbase"          : "0x0000000000000000000000000000000000000000",
+  "difficulty"        : "0x400",
+  "extraData"         : "",
+  "gasLimit"          : "0x800000000",
+  "gasPrice"          : "0x2540be400",
+  "nonce"             : "${GEN_NONCE}",
+  "mixhash"           : "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "parentHash"        : "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "timestamp"         : "0x00"
+}

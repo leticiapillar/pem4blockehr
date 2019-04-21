@@ -1,0 +1,17 @@
+{
+  "name": "api-web3js",
+  "version": "1.0.0",
+  "description": "Api do connect Blockchain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leticia Pillar Lisboa",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "ethereumjs-tx": "^1.3.7",
+    "moment": "^2.22.2",
+    "web3": "1.0.0-beta.34"
+  }
+}
